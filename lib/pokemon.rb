@@ -1,17 +1,10 @@
 class Pokemon
-<<<<<<< HEAD
   attr_accessor :id, :name, :type, :db, :hp 
   def initialize(id:, name:, type:, db:, hp: nil)
-=======
-  attr_accessor :id, :name, :type, :db
-  @@all = []
-  def initialize(id:, name:, type:, db:)
->>>>>>> e46625e5e3e891e07b8d626367054da5dada0e75
     @id = id 
     @name = name 
     @type = type
     @db = db
-<<<<<<< HEAD
     @hp = hp
   end 
   
